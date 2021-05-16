@@ -1,4 +1,4 @@
-# html-musicplayer
+# Html-CSS-musicplayer
 
 ## Basic template of A music Player made using HTML and CSS only.
 
@@ -10,4 +10,4 @@
 Hosted On Github Pages
 ```
 
-[View Deployment]https://nyctonio.github.io/html-musicplayer/
+![View Deployment](https://nyctonio.github.io/html-musicplayer/)
