@@ -6,8 +6,8 @@
 
 ![image](https://user-images.githubusercontent.com/79045059/118386089-6ab81100-b632-11eb-9405-032032038659.png)
 
-```bash
-Hosted On Github Pages
-```
+
+### Hosted On Github Pages
+
 
 [View Deployment](https://nyctonio.github.io/html-musicplayer/)
