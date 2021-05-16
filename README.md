@@ -8,4 +8,5 @@
 
 ```bash
 Hosted On Github Pages
+https://nyctonio.github.io/html-musicplayer/
 ```
