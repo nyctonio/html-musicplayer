@@ -1,0 +1,43 @@
+/*-------------------------------------- Footer (Music-Player)------------------------------------------------------*/
+.music-player{
+    display: flex;
+    background: #312A3D;
+    position: fixed;
+    height: 4rem;
+    width: 100vw;
+    bottom:0rem;
+    z-index: 6;
+}
+#slider{
+    margin-top: 2.8rem;
+    margin-left:-19.6rem ;
+    -webkit-appearance: none;
+    width: 400px;
+    height: 7px;
+    outline: none;
+    border-radius: 3px;
+}
+#slider2{
+    margin-top: 1.5rem;
+    margin-left:0.5rem;
+    -webkit-appearance: none;
+    width: 70px;
+    height: 4px;
+    outline: none;
+    border-radius: 3px;
+}
+#slider::-webkit-slider-thumb{
+    /*--we can edit slider from here (future reference)--*/
+}
+
+/*---- Responsive ----*/
+@media (max-width:900px){
+    .hide1{
+        display: none;
+    }
+}
+@media (max-width:700px){
+    .hide2{
+        display: none;
+    }
+}

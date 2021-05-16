@@ -1,0 +1,68 @@
+/*------------------------------------- Aside -----------------------------------------------*/
+::-webkit-scrollbar{
+    width: 0;
+}
+nav{
+    margin-top: 0;
+    margin-left: 0;
+    position: absolute;
+    overflow-y:scroll ;
+    height: 55rem;
+}
+nav::-webkit-scrollbar{
+    width: 0rem;
+    height: 70rem;
+}
+
+.fav-music{
+    display: flex;
+    margin-top:-.7rem;
+}
+.fav-music p{
+    margin-top: 2.3rem;
+    margin-right: 0rem;
+}
+.fav-music img:hover{
+    color:pink;
+}
+.fav-music-img{
+    height: 3.4rem;
+    width: 3.4rem;
+    margin-top:1rem ;
+    margin-left: 1rem;
+}
+/*--pop up--*/
+#playlist-open:target{
+    transform:scale(20,10);
+}
+#pop-up{
+    color: black;
+    margin-left:9rem;
+    margin-top:0rem;
+    background:aliceblue;
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    overflow: hidden;
+    transition: .2s;
+    opacity: 0;
+    text-align: center;
+}
+
+#pop-up:target{
+    opacity: 1;
+}
+/*---- Responsive ----*/
+@media screen and (max-width:290px){
+    #nav{
+        background-color:yellow;
+    }
+    .hid{
+        display: none;
+    }
+}
+
+
+
+
+

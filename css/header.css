@@ -1,0 +1,115 @@
+/*--------------------------------- header ------------------------------------*/
+#icon{
+    margin-left: 2em;
+    margin-top:1em;
+    height: 3.4em;
+    width: 3.4em;
+}
+.logo-text{
+    position: relative;
+    font-family: system-ui;
+    font-size: 1.563rem;
+    margin-top:1.563rem;
+    margin-left:.625rem;
+}
+.web-header{
+    top:0rem;
+    margin-bottom:2rem;
+    display: flex;
+    position:fixed;
+    background-image:linear-gradient(rgba(23, 20, 29,1),rgba(23, 20, 29,0.8),rgba(23, 20, 29,0.7),rgba(23, 20, 29,0));
+    z-index:4;
+}
+/* search box*/
+.search-box{
+    display: flex;
+    position: relative;
+    margin-top:2rem;
+    margin-left: 33rem;
+    background: #312A3D;
+    height: 1.75rem;
+    width: 15.8rem;
+    border-radius: .6rem;
+}
+.search-text{
+    background:none;
+    border:none;
+    outline: none;
+    color:white;
+}
+#bell{
+    margin-left:2.5rem;
+    margin-top:1.875rem;
+}
+#man{
+    height: 3.125rem; 
+    width: 3.125rem; 
+    margin-top:1.25rem; 
+    margin-left: 1.25rem;
+}
+/*---- Responsive ----*/
+@media (max-width:1050px){
+    .search-box{
+        margin-left: 23rem;
+    }
+}
+@media (max-width:950px){
+    .search-box{
+        margin-left: 19rem;
+    }
+}
+@media (max-width:890px){
+    .search-box{
+        margin-left: 15rem;
+    }
+}
+@media (max-width:790px){
+    .search-box{
+        margin-left: 10rem;
+    }
+}
+@media (max-width:700px){
+    .search-box{
+        margin-left: 9rem;
+        width: 12rem;
+    }
+    #v-s{
+        margin-left:-2rem !important;
+    }
+}
+@media (max-width:650px){
+    .search-box{
+        margin-left: 4.5rem;
+        width: 12rem;
+    }
+    #v-s{
+        margin-left:-1.8rem !important;
+    }
+    #hid4{
+        display:none;
+    }
+}
+@media (max-width:590px){
+    .search-box{
+        margin-left: 3rem;
+        width: 12rem;
+    }
+    #v-s{
+        margin-left:-1.5rem !important;
+    }
+    .logo-text{
+        position: relative;
+        font-family: system-ui;
+        font-size: 1.3rem;
+        margin-top:1.563rem;
+        margin-left:.4rem;
+    }
+    #icon{
+        margin-left: 0.7em;
+        margin-top:1em;
+        height: 2.7em;
+        width: 2.7em;
+    }
+
+}
+

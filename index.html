@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--favicon -->
+    <link rel="icon" href="disc.ico" type="image/gif" sizes="16x16">
+    <!------------>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music</title>
+    <!-- main css (body) -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- header css -->
+    <link rel="stylesheet" href="css/header.css">
+    <!-- footer css -->
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+
+
+
+<body>
+    <header class="web-header">
+        <!-- logo -->
+        <a href="#"><img id="icon" src="home-page-images/disc.png" alt="pic"></a>
+        <h2 class="logo-text">Music</h2>
+        <h3 id="hid4" style="margin-left:3rem;margin-top:2rem;margin-right:-7.7rem">Favourites</h3>
+
+        <!-- Search bar -->
+
+        <div class="search-box">
+            <a href="">  
+            <img style="margin: 3px;" src="https://s.svgbox.net/materialui.svg?ic=search&fill=000" width="22" height="22">
+            </a>  
+            <input type="text" class="search-text" placeholder=" Search">
+            <a href="#">
+                <img id="v-s" style="margin:3px; margin-left: 30px;" src="https://s.svgbox.net/materialui.svg?ic=mic&fill=000" width="23" height="23">
+            </a>
+        </div>
+        <!-- Bell -->
+        <a href="#">
+            <img id="bell" src="https://s.svgbox.net/hero-outline.svg?ic=bell&fill=ffffff" width="32" height="32">
+        </a>
+        <!--Man Icon-->
+        <a href="#">
+            <img id="man" src="home-page-images/human.svg" alt="pic">
+        </a>
+    </header>
+        
+
+<!-------------------------------------------------------------------------->
+<!--These are iframes i used 2 iframes one is container and other is aside -->
+<!-- location of container and aside html are in iframe folder-->
+    <div id="frame-div">
+        <!--iframe of main container-->
+    <iframe id="frame-container" src="iframe/container.html"  title="Container"></iframe>
+        <!--iframe of aside part-->
+    <iframe id="frame-aside" src="iframe/aside.html" ></iframe>
+    </div>
+<!--------------------------------------------------------------------------->
+    
+
+<!-- Music Player (Footer) -->
+
+    <footer class="music-player">
+            <img class="hide1" style="height: 3rem;width: 3rem;margin-top:.3rem;margin-left:3rem" src="latest-eng-hindi/6.png" alt="">
+            <div class="hide1" style="margin-left: 1rem;margin-top:-.4rem ;"><h4>Music</h4>
+            <h6 class="hide1" style="margin-top:-1.2rem;">Billie Eilish</h6></div>
+            <img class="hide1" style="margin-left:2rem;margin-top:1rem" src="https://s.svgbox.net/hero-outline.svg?ic=heart&fill=fff" width="18" height="18">
+            <img class="hide1" style="margin-left:.3rem;margin-top:1rem" src="https://s.svgbox.net/hero-outline.svg?ic=ban&fill=fff" width="18" height="18">
+            <img style="margin-left:10.1rem;margin-top:1rem" src="https://s.svgbox.net/materialui.svg?ic=shuffle&fill=fff" width="18" height="18">
+            <img style="margin-left:2rem;margin-top:1rem" src="https://s.svgbox.net/materialui.svg?ic=skip_previous&fill=fff" width="19" height="19">
+            <img style="margin-left:2rem;margin-top:.5rem" src="https://s.svgbox.net/hero-outline.svg?ic=pause&fill=fff" width="32" height="32">
+            <img style="margin-left:2rem;margin-top:1rem" src="https://s.svgbox.net/materialui.svg?ic=skip_next&fill=fff" width="19" height="19">
+            <img style="margin-left:2rem;margin-top:1rem" src="https://s.svgbox.net/materialui.svg?ic=repeat&fill=fff" width="18" height="18">
+            <div><input id="slider" type="range" min="0" max="3.20" step=".01"></div>
+            
+            <img class="hide2" style="margin-left:4rem;margin-top:1rem" src="https://s.svgbox.net/materialui.svg?ic=menu&fill=fff" width="19" height="19">
+            <img class="hide2" style="margin-left:1rem;margin-top:1rem" src="https://s.svgbox.net/materialui.svg?ic=computer&fill=fff" width="19" height="19">
+            <img class="hide2" style="margin-left:1rem;margin-top:1rem" src="https://s.svgbox.net/hero-outline.svg?ic=volume-up&fill=fff" width="19" height="19">
+            <div class="hide2" ><input class="hide2" id="slider2" type="range" min="0" max="3.20" step=".01"></div>
+            <img class="hide2" style="margin-left:1rem;margin-top:1rem" src="https://s.svgbox.net/materialui.svg?ic=fullscreen&fill=fff" width="19" height="19">
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,176 @@
+body {
+    display:flex;
+    padding: 0;
+    margin: 0;
+    background-color: #17141d;
+    color: white;
+    font-family: 'DM Mono', monospace;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+/*-- main body where coldplay and all the songs are done */
+#main-body{
+    background-color: #17141d;
+    margin-top:5rem;
+    margin-left:2rem ;
+    width: 65%;
+    height: 90vh;
+    overflow-y:scroll;
+}
+#main-body::-webkit-scrollbar{
+    width: 0px;
+}
+#cold-img{
+    height:14rem;
+    width: 15rem;
+    margin-right:.5rem ;
+}
+.song-div{
+    background-color: #312A3D;
+    margin-top:1rem;
+    height: 3rem;
+    width: 50rem;
+    transition: .3s;
+}
+.song-div:hover{
+    box-shadow: 0rem 0 0.4rem #000;
+    background-color: transparent;
+}
+.song-img{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: .8rem;
+    margin-top:.25rem;
+}
+.song-txt{
+    font-size: .8rem;
+    margin-left: .5rem;
+    margin-top: .9rem;
+}
+.song-heart{
+    margin-left: 32rem;
+    margin-top: .9rem;
+}
+.song-add{
+    margin-left: 1.7rem;
+    margin-top: .9rem;
+}
+/*-- play all(button)--*/
+#grad-button{
+    background-image: linear-gradient(-35deg,#df83e6,#6512e0);
+    margin-left: .5rem;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    padding-top:.01rem;
+    transition: .2s;
+}
+#grad-button:hover{
+    transform:scale(1.016);
+}
+/*-- Follow(button) --*/
+#grad-button-2{
+    background:#17141d;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+}
+#grad-button-2:hover{
+    transform:scale(1.016);
+}
+/*--- aside section ---*/
+aside{
+    background-color: #17141d;
+    margin-left:1rem;
+    margin-top:5rem;
+    width: 28%;
+    height: 90vh;
+    overflow-x: hidden;
+}
+aside::-webkit-scrollbar{
+    width: 0;
+}
+
+/*-- nav1 (--  Similar artists --)--*/
+#nav1{
+    background-color:#17141d;
+    height: 40vh;
+    width: 28vw;
+    overflow-x: hidden;
+    margin-bottom:5px;
+}
+#nav1::-webkit-scrollbar{
+    width: 0;
+}
+.latest{
+    display: flex;
+    flex-wrap:wrap;
+    height: 12.5rem;
+    width: 40.7rem;
+    margin-left: 3.125rem;
+}
+.latest-card{
+    background-color: #312A3D;
+    height: 4.6rem;
+    width: 21rem;
+    display: flex;
+    margin-right: 0px;
+    margin-top: 9px;
+    padding: 10px;
+}
+.card-img{
+    height: 4.375rem;
+    width: 4.375rem;
+}
+.latest-card-text{
+    margin-top:.938rem;
+    margin-left:.438rem;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+.latest-card-img-2{
+    margin-left:50px ;
+}
+.latest-card-text-2{
+    font-size:12px ; 
+    margin-left:47px ;
+    margin-top:-7px ;
+}
+.latest-card-text:hover {
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*-- nav1 (-- Similar artists --)--*/
+#nav2{
+    background-color:#17141d;
+    height: 40vh;
+    width: 28vw;
+    overflow-x: hidden;
+}
+.song-heart2{
+    margin-left:150px;
+    margin-top:10px;
+}
+#nav2::-webkit-scrollbar{
+    width: 0;
+}
+.marg{
+    margin-bottom: 0rem;
+}
+/*---Responsive---*/
+@media (max-width:800px){
+    #main-body{
+        background-color: #17141d;
+        margin-top:5rem;
+        margin-left:2rem ;
+        width: 90%;
+        height: 90vh;
+        overflow-y:scroll;
+    } 
+    aside{
+        display:none;
+    }
+}

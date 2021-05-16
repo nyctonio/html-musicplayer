@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #17141d;
+    color: white;
+    font-family: 'DM Mono', monospace;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+/*--- I frames -----*/
+#frame-container{
+    margin-top: 0rem;
+    margin-left:0rem;
+    height:90vh;
+    width: 70vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border: none;
+    outline: none;
+    z-index: 3;
+}
+#frame-div{
+    display: block;
+}
+/*--- aside containe ---*/
+#frame-aside{
+    display: hidden;
+    margin-top: 10vh;
+    margin-left:-3rem;
+    height:80vh;
+    width: 29vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border: none;
+    outline: none;
+    z-index:4;
+}
+
+/*------------------------------- responsive---------------------------------*/
+@media all and (max-width:1050px){
+    #frame-aside{
+        height: 0;
+        width: 0;
+    }
+    #frame-container{
+        width: 96vw;
+        height: 88vh;
+    }
+}
