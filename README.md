@@ -10,4 +10,4 @@
 Hosted On Github Pages
 ```
 
-![View Deployment](https://nyctonio.github.io/html-musicplayer/)
+[View Deployment](https://nyctonio.github.io/html-musicplayer/)
